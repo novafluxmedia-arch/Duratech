@@ -1,0 +1,9 @@
+# Netlify redirect rules for the Dura Tech website.
+# This is a static multi-page site, so no redirects are required to run it —
+# the rules below are common, safe defaults. Uncomment/edit as needed.
+
+# Force www (uncomment once the production domain is confirmed):
+# https://duratech.com/*  https://www.duratech.com/:splat  301!
+
+# Friendly 404 fallback (optional — uncomment to route unknown paths to the homepage):
+# /*  /index.html  404
